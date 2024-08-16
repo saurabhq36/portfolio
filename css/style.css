@@ -9982,3 +9982,143 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+
+
+
+
+
+
+
+
+
+Copy code
+.bg-purple {
+    background-color: #6f42c1; /* Purple */
+}
+
+.bg-teal {
+    background-color: #20c997; /* Teal */
+}
+
+.bg-orange {
+    background-color: #fd7e14; /* Orange */
+}
+
+.bg-pink {
+    background-color: #e83e8c; /* Pink */
+}
+
+.bg-brown {
+    background-color: #795548; /* Brown */
+}
+
+.bg-indigo {
+    background-color: #6610f2; /* Indigo */
+}
+
+.bg-olive {
+    background-color: #3d9970; /* Olive */
+}
+
+.bg-lime {
+    background-color: #01ff70; /* Lime */
+}
+
+.bg-gold {
+    background-color: #ffd700; /* Gold */
+}
+
+.bg-silver {
+    background-color: #c0c0c0; /* Silver */
+}
+
+.bg-coral {
+    background-color: #ff7f50; /* Coral */
+}
+
+.bg-navy {
+    background-color: #001f3f; /* Navy */
+}
+
+
+
+
+.bg-skyblue {
+  background-color: #87ceeb; /* Sky Blue */
+}
+
+.bg-mint {
+  background-color: #98ff98; /* Mint Green */
+}
+
+.bg-maroon {
+  background-color: #800000; /* Maroon */
+}
+
+.bg-crimson {
+  background-color: #dc143c; /* Crimson */
+}
+
+.bg-slate {
+  background-color: #708090; /* Slate Gray */
+}
+
+.bg-aqua {
+  background-color: #00ffff; /* Aqua */
+}
+
+.bg-peach {
+  background-color: #ffdab9; /* Peach */
+}
+
+.bg-rose {
+  background-color: #ff007f; /* Rose */
+}
+
+.bg-ivory {
+  background-color: #fffff0; /* Ivory */
+}
+
+.bg-plum {
+  background-color: #dda0dd; /* Plum */
+}
+
+.bg-chocolate {
+  background-color: #d2691e; /* Chocolate */
+}
+
+.bg-lavender {
+  background-color: #e6e6fa; /* Lavender */
+}
+
+.bg-turquoise {
+  background-color: #40e0d0; /* Turquoise */
+}
+
+.bg-amber {
+  background-color: #ffbf00; /* Amber */
+}
+
+.bg-emerald {
+  background-color: #50c878; /* Emerald */
+}
+
+.bg-salmon {
+  background-color: #fa8072; /* Salmon */
+}
+
+.bg-cyan {
+  background-color: #00bcd4; /* Cyan */
+}
+
+.bg-charcoal {
+  background-color: #36454f; /* Charcoal */
+}
+
+.bg-magenta {
+  background-color: #ff00ff; /* Magenta */
+}
+
+.bg-rosewood {
+  background-color: #65000b; /* Rosewood */
