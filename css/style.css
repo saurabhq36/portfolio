@@ -9992,7 +9992,6 @@ h6,
 
 
 
-Copy code
 .bg-purple {
     background-color: #6f42c1; /* Purple */
 }
@@ -10122,3 +10121,19 @@ Copy code
 
 .bg-rosewood {
   background-color: #65000b; /* Rosewood */
+}
+
+.icon-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50%; /* Adjust the size to be half of the image area */
+  color: #007bff; /* Set the color of the icon */
+}
+
+
+ul.custom-list {
+  list-style-type: square; /* Changes bullet to square */
+  text-align: justify;
+}
