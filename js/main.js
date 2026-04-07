@@ -3,10 +3,10 @@
 
     // Navbar on scrolling
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-            $('.navbar').fadeIn('slow').css('display', 'flex');
+        if ($(this).scrollTop() > 80) {
+            $('.navbar').fadeIn('fast').css('display', 'flex');
         } else {
-            $('.navbar').fadeOut('slow').css('display', 'none');
+            $('.navbar').fadeOut('fast');
         }
     });
 

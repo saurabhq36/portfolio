@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+  <defs>
+    <linearGradient id="mat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1220"/>
+      <stop offset="100%" stop-color="#0a0d16"/>
+    </linearGradient>
+    <linearGradient id="kb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#252840"/>
+      <stop offset="100%" stop-color="#1a1e30"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Desk mat -->
+  <rect x="2" y="50" width="196" height="64" rx="14" fill="url(#mat)" stroke="#1e2433" stroke-width="1.5"/>
+  <!-- Mat teal left stripe -->
+  <rect x="2" y="50" width="5" height="64" rx="3" fill="#0BCEAF" opacity="0.25"/>
+  <!-- Mat texture lines -->
+  <rect x="12" y="58" width="178" height="0.8" rx="0.4" fill="rgba(255,255,255,0.04)"/>
+  <rect x="12" y="66" width="178" height="0.8" rx="0.4" fill="rgba(255,255,255,0.04)"/>
+  <rect x="12" y="74" width="178" height="0.8" rx="0.4" fill="rgba(255,255,255,0.04)"/>
+  <rect x="12" y="82" width="178" height="0.8" rx="0.4" fill="rgba(255,255,255,0.04)"/>
+  <rect x="12" y="90" width="178" height="0.8" rx="0.4" fill="rgba(255,255,255,0.04)"/>
+  <rect x="12" y="98" width="178" height="0.8" rx="0.4" fill="rgba(255,255,255,0.04)"/>
+
+  <!-- Keyboard body -->
+  <rect x="14" y="14" width="172" height="72" rx="10" fill="url(#kb)" stroke="#3a3f5a" stroke-width="1.5"/>
+
+  <!-- Key rows - using individual key blocks -->
+  <!-- Row 1 (fn row) - 14 keys -->
+  <rect x="20" y="20" width="160" height="9" rx="3" fill="#1e2336"/>
+  <!-- Row 1 key separators -->
+  <rect x="20" y="20" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="32" y="20" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="44" y="20" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="56" y="20" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="70" y="20" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="82" y="20" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="94" y="20" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="106" y="20" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="120" y="20" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="132" y="20" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="144" y="20" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="156" y="20" width="24" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+
+  <!-- Row 2 -->
+  <rect x="20" y="32" width="16" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="38" y="32" width="10" height="9" rx="2" fill="#0BCEAF" opacity="0.55" stroke="#0BCEAF" stroke-width="0.5"/>
+  <rect x="50" y="32" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="62" y="32" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="74" y="32" width="10" height="9" rx="2" fill="#0BCEAF" opacity="0.35" stroke="#0BCEAF" stroke-width="0.5"/>
+  <rect x="86" y="32" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="98" y="32" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="110" y="32" width="10" height="9" rx="2" fill="#0BCEAF" opacity="0.3" stroke="#0BCEAF" stroke-width="0.5"/>
+  <rect x="122" y="32" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="134" y="32" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="146" y="32" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="158" y="32" width="22" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+
+  <!-- Row 3 -->
+  <rect x="20" y="44" width="20" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="42" y="44" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="54" y="44" width="10" height="9" rx="2" fill="#0BCEAF" opacity="0.4" stroke="#0BCEAF" stroke-width="0.5"/>
+  <rect x="66" y="44" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="78" y="44" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="90" y="44" width="10" height="9" rx="2" fill="#0BCEAF" opacity="0.3" stroke="#0BCEAF" stroke-width="0.5"/>
+  <rect x="102" y="44" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="114" y="44" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="126" y="44" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="138" y="44" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="150" y="44" width="30" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+
+  <!-- Row 4 -->
+  <rect x="20" y="56" width="24" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="46" y="56" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="58" y="56" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="70" y="56" width="10" height="9" rx="2" fill="#0BCEAF" opacity="0.5" stroke="#0BCEAF" stroke-width="0.5"/>
+  <rect x="82" y="56" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="94" y="56" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="106" y="56" width="10" height="9" rx="2" fill="#0BCEAF" opacity="0.35" stroke="#0BCEAF" stroke-width="0.5"/>
+  <rect x="118" y="56" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="130" y="56" width="10" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="142" y="56" width="38" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+
+  <!-- Spacebar row -->
+  <rect x="20" y="68" width="22" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="44" y="68" width="14" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="60" y="68" width="80" height="9" rx="2" fill="#1e2a3e" stroke="#0BCEAF" stroke-width="0.6" opacity="0.85"/>
+  <rect x="142" y="68" width="14" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+  <rect x="158" y="68" width="22" height="9" rx="2" fill="#222640" stroke="#2e3450" stroke-width="0.5"/>
+
+  <!-- Spacebar glow -->
+  <rect x="62" y="70" width="76" height="5" rx="2" fill="#0BCEAF" opacity="0.08"/>
+</svg>

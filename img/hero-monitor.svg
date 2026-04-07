@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <defs>
+    <linearGradient id="mbezel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2f4a"/>
+      <stop offset="100%" stop-color="#1a1e30"/>
+    </linearGradient>
+    <linearGradient id="mscreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d111f"/>
+      <stop offset="100%" stop-color="#060810"/>
+    </linearGradient>
+    <radialGradient id="mglow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#0BCEAF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0BCEAF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Curved bezel -->
+  <path d="M5,16 Q100,-2 195,16 L192,98 Q100,114 8,98 Z" fill="url(#mbezel)" stroke="#3a3f5a" stroke-width="1.5"/>
+  <!-- Screen -->
+  <path d="M13,22 Q100,6 187,22 L184,94 Q100,108 16,94 Z" fill="url(#mscreen)"/>
+  <path d="M13,22 Q100,6 187,22 L184,94 Q100,108 16,94 Z" fill="url(#mglow)"/>
+
+  <!-- Top bar -->
+  <path d="M13,22 Q100,6 187,22 L187,34 Q100,18 13,34 Z" fill="#111520"/>
+  <circle cx="25" cy="27" r="3" fill="#ff5f56"/>
+  <circle cx="33" cy="27" r="3" fill="#ffbd2e"/>
+  <circle cx="41" cy="27" r="3" fill="#27c93f"/>
+
+  <!-- Code lines on screen -->
+  <rect x="20" y="42" width="38" height="3" rx="1.5" fill="#c792ea" opacity="0.75"/>
+  <rect x="60" y="42" width="22" height="3" rx="1.5" fill="#0BCEAF" opacity="0.85"/>
+  <rect x="20" y="50" width="18" height="2.5" rx="1.25" fill="#82aaff" opacity="0.6"/>
+  <rect x="40" y="50" width="55" height="2.5" rx="1.25" fill="#c3e88d" opacity="0.55"/>
+  <rect x="20" y="58" width="14" height="2.5" rx="1.25" fill="#f78c6c" opacity="0.65"/>
+  <rect x="36" y="58" width="68" height="2.5" rx="1.25" fill="rgba(255,255,255,0.16)"/>
+  <rect x="20" y="66" width="44" height="2.5" rx="1.25" fill="#82aaff" opacity="0.45"/>
+  <rect x="66" y="66" width="28" height="2.5" rx="1.25" fill="#0BCEAF" opacity="0.5"/>
+  <rect x="20" y="74" width="60" height="2.5" rx="1.25" fill="rgba(255,255,255,0.13)"/>
+  <rect x="20" y="82" width="36" height="2.5" rx="1.25" fill="#c3e88d" opacity="0.45"/>
+  <rect x="58" y="82" width="20" height="2.5" rx="1.25" fill="rgba(255,255,255,0.1)"/>
+
+  <!-- Bottom glow line -->
+  <path d="M8,97 Q100,112 192,97" stroke="#0BCEAF" stroke-width="1.5" fill="none" opacity="0.35"/>
+
+  <!-- Power LED -->
+  <circle cx="100" cy="105" r="2.5" fill="#0BCEAF" opacity="0.7"/>
+
+  <!-- Neck -->
+  <rect x="88" y="108" width="24" height="20" rx="4" fill="#1e2336" stroke="#2e3450" stroke-width="1"/>
+
+  <!-- Base -->
+  <ellipse cx="100" cy="133" rx="42" ry="10" fill="#1a1e30" stroke="#3a3f5a" stroke-width="1.5"/>
+  <ellipse cx="100" cy="133" rx="38" ry="7" fill="#141828"/>
+</svg>
