@@ -459,6 +459,47 @@
            SKILLS
         ═══════════════════════════════════════ */
         #skill { background: #ffffff; padding: 6rem 0; }
+        .ai-tools {
+            margin-top: 2rem;
+            padding-top: 1.75rem;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+        }
+        .ai-tools-title {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        .ai-tools-list {
+            display: grid;
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+            gap: 1rem;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .ai-tools-badge {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 64px;
+            padding: 0.875rem 1rem;
+            border: 1px solid rgba(11,206,175,0.25);
+            border-radius: 12px;
+            background: #f0fdfa;
+            color: #334155;
+            font-size: 0.875rem;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+        @media (max-width: 767.98px) {
+            .ai-tools-list {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.75rem;
+            }
+            .ai-tools-badge:last-child:nth-child(odd) {
+                grid-column: 1 / -1;
+            }
+        }
         .skill-label {
             font-size: 0.875rem;
             font-weight: 600;
@@ -931,6 +972,13 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-str">"Tool Calling"</span>,</div>
                         <div>&nbsp;&nbsp;&nbsp;&nbsp;]</div>
                         <div>&nbsp;</div>
+                        <div>&nbsp;&nbsp;<span class="c-keyword">def</span> <span class="c-fn">ai_tools</span>(self):</div>
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-keyword">return</span> [</div>
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-str">"Codex"</span>, <span class="c-str">"ChatGPT"</span>,</div>
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-str">"Claude Code"</span>,</div>
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-str">"Cursor"</span>, <span class="c-str">"Gemini"</span>,</div>
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;]</div>
+                        <div>&nbsp;</div>
                         <!-- <div><span class="c-comment"># Currently @ Spyne</span></div> -->
                     </div>
                 </div>
@@ -1176,6 +1224,16 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="ai-tools" data-aos="fade-up">
+                <h3 class="ai-tools-title" id="ai-tools-title">AI-Assisted Development</h3>
+                <ul class="ai-tools-list" role="list" aria-labelledby="ai-tools-title">
+                    <li class="ai-tools-badge">Codex</li>
+                    <li class="ai-tools-badge">ChatGPT</li>
+                    <li class="ai-tools-badge">Claude Code</li>
+                    <li class="ai-tools-badge">Cursor</li>
+                    <li class="ai-tools-badge">Gemini</li>
+                </ul>
             </div>
         </div>
     </div>
